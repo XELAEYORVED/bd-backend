@@ -9,6 +9,9 @@ on verra
 
 
 
+
+
+
 - Erreur : le message exact affiché
 - Cause : ce qui l'a provoquée
 - Solution : comment je l'ai corrigée
