@@ -77,7 +77,6 @@ if (isset($_POST['connexion'])) {
 if (isset($_POST['deconnexion'])) {
     session_unset();
     session_destroy();
-    // Sans redirection, $_SESSION est encore rempli pour cette requête : il fallait soumettre 2 fois
     header('Location:index.php');
     exit();
 }
